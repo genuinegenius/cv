@@ -15,5 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("menuLeft").style.display = "block";
         document.getElementById("content").style.width = "87.5%";
         document.getElementById("rightMenu").style.display = "block";
+        document.getElementById("content").style.display = "flex";
+        document.getElementById("contentNavClick").style.display = "none";
+        document.getElementById("menuDotsBack").style.display = "none";
     }
 })
