@@ -55,6 +55,15 @@ body{
 .content{
     width: 82.5%;
     height: 100%;
+    color: #d3d3d3;
+    background-color: #18191a;
+}
+
+.contentNavClick{
+    display: none;
+    width: 100%;
+    height: 100%;
+    color: #d3d3d3;
     background-color: #18191a;
 }
 
@@ -72,6 +81,11 @@ body{
     background-color: transparent;
     border-right: 1px solid #4e5052;
 }
+
 .menuDots:hover{
     color: #1E90FF;
+}
+
+.menuDots:focus{
+    outline: none;
 }
