@@ -89,3 +89,13 @@ body{
 .menuDots:focus{
     outline: none;
 }
+
+.menuBtn:hover > .menuImg{
+    color: #1E90FF;
+}
+
+.menuImg{
+    color: #d3d3d3;
+    margin: 0 10px 0 0;
+    transition: color 150ms ease-in-out;
+}
