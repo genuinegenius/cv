@@ -99,3 +99,8 @@ body{
     margin: 0 10px 0 0;
     transition: color 150ms ease-in-out;
 }
+
+.avatar{
+    border-radius: 50%;
+    margin: 0 5px 0 10px;
+}
