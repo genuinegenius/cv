@@ -8,10 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("menuDots").style.display = "flex";
         document.getElementById("menuLeft").style.display = "none";
         document.getElementById("content").style.width = "100%";
+        document.getElementById("rightMenu").style.display = "none";
     }
     else {
         document.getElementById("menuDots").style.display = "none";
         document.getElementById("menuLeft").style.display = "block";
         document.getElementById("content").style.width = "87.5%";
+        document.getElementById("rightMenu").style.display = "block";
     }
 })
