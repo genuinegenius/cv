@@ -135,12 +135,24 @@ body{
     height: 25px;
 }
 
+.h_line{
+    position: absolute;
+    top: 170px;
+    border: 1px solid #d3d3d3;
+    width: 50%;
+    height: 0;
+}
+
 .tab{
-    width: 90%;
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    height: 450px;
     background-color: #242526;
     border: 1px solid #4e5052;
     border-radius: 15px;
+    padding: 25px;
 }
 
 #about_me_container{
@@ -173,4 +185,86 @@ body{
     flex-direction: column;
     width: 100%;
     height: auto;
+}
+
+.title_first_tab{
+    background-color: #242526;
+    z-index: 1;
+    padding: 0 10px 0 10px;
+    height: 20px;
+}
+
+.container_title_first_tab{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+}
+
+.container_first_page{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.container_second_page{
+    display: none;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.container_third_page{
+    display: none;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.container_forth_page{
+    display: none;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.next_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+}
+
+.active_circle{
+    cursor: pointer;
+    margin-left: 12.5px;
+    width: 10px;
+    height: 10px;
+    outline: 2px solid #d3d3d3;
+    border: 3px solid #242526;
+    background-color: #d3d3d3;
+    border-radius: 50%;    
+}
+
+.circle{
+    cursor: pointer;
+    margin-left: 12.5px;
+    width: 10px;
+    height: 10px;
+    outline: 2px solid #d3d3d3;
+    border: 3px solid #242526;
+    background-color: #242526;
+    border-radius: 50%;
 }
