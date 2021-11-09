@@ -37,3 +37,63 @@ document.getElementById("projects_btn").addEventListener("click", () => {
     document.getElementById("skills_container").style.display = "none";
     document.getElementById("projects_container").style.display = "flex";
 })
+
+document.getElementById("circle1").addEventListener("click", () => {
+    document.getElementById("page1").style.display = "flex";
+    document.getElementById("page2").style.display = "none";
+    document.getElementById("page3").style.display = "none";
+    document.getElementById("page4").style.display = "none";
+
+    document.getElementById("circle1").className = "active_circle";
+    document.getElementById("circle2").className = "circle";
+    document.getElementById("circle3").className = "circle";
+    document.getElementById("circle4").className = "circle";
+    document.getElementById("circle5").className = "circle";
+})
+
+document.getElementById("circle2").addEventListener("click", () => {
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "flex";
+    document.getElementById("page3").style.display = "none";
+    document.getElementById("page4").style.display = "none";
+
+    document.getElementById("circle1").className = "circle";
+    document.getElementById("circle2").className = "active_circle";
+    document.getElementById("circle3").className = "circle";
+    document.getElementById("circle4").className = "circle";
+    document.getElementById("circle5").className = "circle";
+})
+
+document.getElementById("circle3").addEventListener("click", () => {
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "none";
+    document.getElementById("page3").style.display = "flex";
+    document.getElementById("page4").style.display = "none";
+
+    document.getElementById("circle1").className = "circle";
+    document.getElementById("circle2").className = "circle";
+    document.getElementById("circle3").className = "active_circle";
+    document.getElementById("circle4").className = "circle";
+    document.getElementById("circle5").className = "circle";
+})
+
+document.getElementById("circle4").addEventListener("click", () => {
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "none";
+    document.getElementById("page3").style.display = "none";
+    document.getElementById("page4").style.display = "flex";
+
+    document.getElementById("circle1").className = "circle";
+    document.getElementById("circle2").className = "circle";
+    document.getElementById("circle3").className = "circle";
+    document.getElementById("circle4").className = "active_circle";
+    document.getElementById("circle5").className = "circle";
+})
+
+document.getElementById("circle5").addEventListener("click", () => {
+    document.getElementById("circle1").className = "circle";
+    document.getElementById("circle2").className = "circle";
+    document.getElementById("circle3").className = "circle";
+    document.getElementById("circle4").className = "circle";
+    document.getElementById("circle5").className = "active_circle";
+})
