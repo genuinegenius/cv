@@ -21,7 +21,7 @@ function reportWindowSize() {
         document.getElementById("menuDotsBack").style.display = "none";
     }
 
-    if(width < 410){
+    if(width < 650){
         document.getElementById("container_first_row").style.flexDirection = "column";
         document.getElementById("container_second_row").style.flexDirection = "column";
         document.getElementById("info1_1").style.width = "auto";
