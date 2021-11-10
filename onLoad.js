@@ -21,21 +21,49 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if(width < 650){
-        document.getElementById("container_first_row").style.flexDirection = "column";
-        document.getElementById("container_second_row").style.flexDirection = "column";
+        document.getElementById("container_first_row_1").style.flexDirection = "column";
+        document.getElementById("container_second_row_1").style.flexDirection = "column";
         document.getElementById("info1_1").style.width = "auto";
         document.getElementById("info1_2").style.width = "auto";
         document.getElementById("info1_3").style.width = "auto";
         document.getElementById("info1_4").style.display = "none";
         document.getElementById("tab").style.height = "auto";
+        
+        document.getElementById("container_first_row_2").style.flexDirection = "column";
+        document.getElementById("container_second_row_2").style.flexDirection = "column";
+        document.getElementById("info2_1").style.width = "auto";
+        document.getElementById("info2_2").style.width = "auto";
+        document.getElementById("info2_3").style.width = "auto";
+        document.getElementById("info2_4").style.display = "none";
+        
+        document.getElementById("container_first_row_3").style.flexDirection = "column";
+        document.getElementById("container_second_row_3").style.flexDirection = "column";
+        document.getElementById("info3_1").style.width = "auto";
+        document.getElementById("info3_2").style.width = "auto";
+        document.getElementById("info3_3").style.width = "auto";
+        document.getElementById("info3_4").style.display = "none";
     }
     else{
-        document.getElementById("container_first_row").style.flexDirection = "row";
-        document.getElementById("container_second_row").style.flexDirection = "row";
+        document.getElementById("container_first_row_1").style.flexDirection = "row";
+        document.getElementById("container_second_row_1").style.flexDirection = "row";
         document.getElementById("info1_1").style.width = "30%";
         document.getElementById("info1_2").style.width = "30%";
         document.getElementById("info1_3").style.width = "30%";
         document.getElementById("info1_4").style.display = "flex";
         document.getElementById("tab").style.height = "450px";
+        
+        document.getElementById("container_first_row_2").style.flexDirection = "row";
+        document.getElementById("container_second_row_2").style.flexDirection = "row";        
+        document.getElementById("info2_1").style.width = "30%";
+        document.getElementById("info2_2").style.width = "30%";
+        document.getElementById("info2_3").style.width = "30%";
+        document.getElementById("info2_4").style.display = "flex";
+        
+        document.getElementById("container_first_row_3").style.flexDirection = "row";
+        document.getElementById("container_second_row_3").style.flexDirection = "row";        
+        document.getElementById("info3_1").style.width = "30%";
+        document.getElementById("info3_2").style.width = "30%";
+        document.getElementById("info3_3").style.width = "30%";
+        document.getElementById("info3_4").style.display = "flex";
     }
 })
