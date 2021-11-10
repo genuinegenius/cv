@@ -1,3 +1,18 @@
+document.getElementById("content").addEventListener('touchstart', process_touchstart, false);
+
+// touchstart handler
+function process_touchstart(ev) {
+    // Use the event's data to call out to the appropriate gesture handlers
+    switch (ev.touches.length) {
+        case 1: handle_one_touch(ev); break;
+    }
+}
+
+function handle_one_touch(ev){
+    document.getElementById("content").style.backgroundColor = "red";
+    console.log("touch");
+}
+
 document.getElementById("menuDots").addEventListener("click", () => {
     document.getElementById("content").style.display = "none";
     document.getElementById("contentNavClick").style.display = "block";
