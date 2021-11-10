@@ -12,6 +12,54 @@ document.getElementById("menuDotsBack").addEventListener("click", () => {
     document.getElementById("social_media_links").style.width = "16.7%";
 })
 
+document.getElementById("about_me_btn_2").addEventListener("click", () => {
+    document.getElementById("content").style.display = "flex";
+    document.getElementById("contentNavClick").style.display = "none";
+    document.getElementById("menuDotsBack").style.display = "none";
+    document.getElementById("social_media_links").style.width = "16.7%";
+
+    document.getElementById("about_me_container").style.display = "flex";
+    document.getElementById("education_container").style.display = "none";
+    document.getElementById("skills_container").style.display = "none";
+    document.getElementById("projects_container").style.display = "none";
+})
+
+document.getElementById("education_btn_2").addEventListener("click", () => {
+    document.getElementById("content").style.display = "flex";
+    document.getElementById("contentNavClick").style.display = "none";
+    document.getElementById("menuDotsBack").style.display = "none";
+    document.getElementById("social_media_links").style.width = "16.7%";
+
+    document.getElementById("about_me_container").style.display = "none";
+    document.getElementById("education_container").style.display = "flex";
+    document.getElementById("skills_container").style.display = "none";
+    document.getElementById("projects_container").style.display = "none";
+})
+
+document.getElementById("skills_btn_2").addEventListener("click", () => {
+    document.getElementById("content").style.display = "flex";
+    document.getElementById("contentNavClick").style.display = "none";
+    document.getElementById("menuDotsBack").style.display = "none";
+    document.getElementById("social_media_links").style.width = "16.7%";
+
+    document.getElementById("about_me_container").style.display = "none";
+    document.getElementById("education_container").style.display = "none";
+    document.getElementById("skills_container").style.display = "flex";
+    document.getElementById("projects_container").style.display = "none";
+})
+
+document.getElementById("projects_btn_2").addEventListener("click", () => {
+    document.getElementById("content").style.display = "flex";
+    document.getElementById("contentNavClick").style.display = "none";
+    document.getElementById("menuDotsBack").style.display = "none";
+    document.getElementById("social_media_links").style.width = "16.7%";
+
+    document.getElementById("about_me_container").style.display = "none";
+    document.getElementById("education_container").style.display = "none";
+    document.getElementById("skills_container").style.display = "none";
+    document.getElementById("projects_container").style.display = "flex";
+})
+
 document.getElementById("about_me_btn").addEventListener("click", () => {
     document.getElementById("about_me_container").style.display = "flex";
     document.getElementById("education_container").style.display = "none";
