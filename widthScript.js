@@ -28,7 +28,7 @@ function reportWindowSize() {
         document.getElementById("info1_2").style.width = "auto";
         document.getElementById("info1_3").style.width = "auto";
         document.getElementById("info1_4").style.display = "none";
-        document.getElementById("tab").style.height = "auto";
+        document.getElementById("tab_aboutme").style.height = "auto";
 
         document.getElementById("container_first_row_2").style.flexDirection = "column";
         document.getElementById("container_second_row_2").style.flexDirection = "column";
@@ -51,7 +51,7 @@ function reportWindowSize() {
         document.getElementById("info1_2").style.width = "30%";
         document.getElementById("info1_3").style.width = "30%";
         document.getElementById("info1_4").style.display = "flex";
-        document.getElementById("tab").style.height = "450px";
+        document.getElementById("tab_aboutme").style.height = "450px";
 
         document.getElementById("container_first_row_2").style.flexDirection = "row";
         document.getElementById("container_second_row_2").style.flexDirection = "row";        
