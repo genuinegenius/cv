@@ -113,7 +113,7 @@ body{
 }
 
 .avatar{
-    margin: 0 10px 0 15px;
+    margin: 0 10px 0 10px;
 }
 
 .rightMenu{
@@ -359,4 +359,18 @@ body{
     background-color: transparent;
     width: 16.7%;
     height: 50px;
+}
+
+.title_fb_link{
+    background-color: transparent;
+    color: #d3d3d3;
+    position: absolute;
+    top: -20px;
+    padding: 5px;
+    display: none;
+    border: 1px solid #d3d3d3;
+}
+
+.social_media_links > .social_media:hover + .title_fb_link{
+    display: block;
 }
