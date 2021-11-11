@@ -147,3 +147,69 @@ document.getElementById("circle4").addEventListener("click", () => {
     document.getElementById("circle3").className = "circle";
     document.getElementById("circle4").className = "active_circle";
 })
+
+document.getElementById("earlylife_circle").addEventListener("click", () => {
+    document.getElementById("earlylife_circle").className = "active_circle_life";
+    document.getElementById("highschool_circle").className = "circle_life";
+    document.getElementById("college_circle").className = "circle_life";
+
+    document.getElementById("earlylife_circle").classList.add("active_circle_of_life");
+    document.getElementById("highschool_circle").classList.remove("active_circle_of_life");
+    document.getElementById("college_circle").classList.remove("active_circle_of_life");
+
+    document.getElementById("line1").classList.add("active_line_of_life");
+    document.getElementById("line2").classList.remove("active_line_of_life");
+    document.getElementById("line3").classList.remove("active_line_of_life");
+
+    document.getElementById("earlylife_text").classList.add("gray_text");
+    document.getElementById("highschool_text").classList.remove("gray_text");
+    document.getElementById("college_text").classList.remove("gray_text");
+
+    document.getElementById("info_education_earlylife").className += " fade_in";
+    document.getElementById("info_education_highschool").classList.remove("fade_in");
+    document.getElementById("info_education_college").classList.remove("fade_in");
+})
+
+document.getElementById("highschool_circle").addEventListener("click", () => {
+    document.getElementById("earlylife_circle").className = "circle_life";
+    document.getElementById("highschool_circle").className = "active_circle_life";
+    document.getElementById("college_circle").className = "circle_life";
+
+    document.getElementById("earlylife_circle").classList.add("active_circle_of_life");
+    document.getElementById("highschool_circle").classList.add("active_circle_of_life");
+    document.getElementById("college_circle").classList.remove("active_circle_of_life");
+
+    document.getElementById("line1").classList.add("active_line_of_life");
+    document.getElementById("line2").classList.add("active_line_of_life");
+    document.getElementById("line3").classList.remove("active_line_of_life");
+
+    document.getElementById("earlylife_text").classList.add("gray_text");
+    document.getElementById("highschool_text").classList.add("gray_text");
+    document.getElementById("college_text").classList.remove("gray_text");
+
+    document.getElementById("info_education_earlylife").classList.remove("fade_in");
+    document.getElementById("info_education_highschool").className += " fade_in";
+    document.getElementById("info_education_college").classList.remove("fade_in");
+})
+
+document.getElementById("college_circle").addEventListener("click", () => {
+    document.getElementById("earlylife_circle").className = "circle_life";
+    document.getElementById("highschool_circle").className = "circle_life";
+    document.getElementById("college_circle").className = "active_circle_life";
+
+    document.getElementById("earlylife_circle").classList.add("active_circle_of_life");
+    document.getElementById("highschool_circle").classList.add("active_circle_of_life");
+    document.getElementById("college_circle").classList.add("active_circle_of_life");
+
+    document.getElementById("line1").classList.add("active_line_of_life");
+    document.getElementById("line2").classList.add("active_line_of_life");
+    document.getElementById("line3").classList.add("active_line_of_life");
+
+    document.getElementById("earlylife_text").classList.add("gray_text");
+    document.getElementById("highschool_text").classList.add("gray_text");
+    document.getElementById("college_text").classList.add("gray_text");
+
+    document.getElementById("info_education_earlylife").classList.remove("fade_in");
+    document.getElementById("info_education_highschool").classList.remove("fade_in");
+    document.getElementById("info_education_college").className += " fade_in";
+})
