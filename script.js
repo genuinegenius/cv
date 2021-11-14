@@ -22,6 +22,16 @@ document.getElementById("about_me_btn_2").addEventListener("click", () => {
     document.getElementById("education_container").style.display = "none";
     document.getElementById("skills_container").style.display = "none";
     document.getElementById("projects_container").style.display = "none";
+    
+    document.getElementById("html_progress").innerText = "";
+    document.getElementById("css_progress").innerText = "";
+    document.getElementById("javascript_progress").innerText = "";
+    document.getElementById("database_progress").innerText = "";
+    document.getElementById("reactjs_progress").innerText = "";
+    document.getElementById("nodejs_progress").innerText = "";
+    document.getElementById("csharp_progress").innerText = "";
+    document.getElementById("c_progress").innerText = "";
+    document.getElementById("java_progress").innerText = "";
 })
 
 document.getElementById("education_btn_2").addEventListener("click", () => {
@@ -34,6 +44,16 @@ document.getElementById("education_btn_2").addEventListener("click", () => {
     document.getElementById("education_container").style.display = "flex";
     document.getElementById("skills_container").style.display = "none";
     document.getElementById("projects_container").style.display = "none";
+    
+    document.getElementById("html_progress").innerText = "";
+    document.getElementById("css_progress").innerText = "";
+    document.getElementById("javascript_progress").innerText = "";
+    document.getElementById("database_progress").innerText = "";
+    document.getElementById("reactjs_progress").innerText = "";
+    document.getElementById("nodejs_progress").innerText = "";
+    document.getElementById("csharp_progress").innerText = "";
+    document.getElementById("c_progress").innerText = "";
+    document.getElementById("java_progress").innerText = "";
 })
 
 document.getElementById("skills_btn_2").addEventListener("click", () => {
@@ -46,6 +66,30 @@ document.getElementById("skills_btn_2").addEventListener("click", () => {
     document.getElementById("education_container").style.display = "none";
     document.getElementById("skills_container").style.display = "flex";
     document.getElementById("projects_container").style.display = "none";
+    
+    document.getElementById("html_progress").innerText = "";
+    document.getElementById("css_progress").innerText = "";
+    document.getElementById("javascript_progress").innerText = "";
+    document.getElementById("database_progress").innerText = "";
+    document.getElementById("reactjs_progress").innerText = "";
+    document.getElementById("nodejs_progress").innerText = "";
+    document.getElementById("csharp_progress").innerText = "";
+    document.getElementById("c_progress").innerText = "";
+    document.getElementById("java_progress").innerText = "";
+
+    $(document).ready(function() {
+        setTimeout(() => {
+            document.getElementById("html_progress").innerText = "HTML";
+            document.getElementById("css_progress").innerText = "CSS";
+            document.getElementById("javascript_progress").innerText = "JavaScript";
+            document.getElementById("database_progress").innerText = "MySQL";
+            document.getElementById("reactjs_progress").innerText = "ReactJS";
+            document.getElementById("nodejs_progress").innerText = "NodeJS";
+            document.getElementById("csharp_progress").innerText = "C#";
+            document.getElementById("c_progress").innerText = "C/C++";
+            document.getElementById("java_progress").innerText = "JAVA";
+        }, 1500);
+    });
 })
 
 document.getElementById("projects_btn_2").addEventListener("click", () => {
@@ -58,6 +102,16 @@ document.getElementById("projects_btn_2").addEventListener("click", () => {
     document.getElementById("education_container").style.display = "none";
     document.getElementById("skills_container").style.display = "none";
     document.getElementById("projects_container").style.display = "flex";
+    
+    document.getElementById("html_progress").innerText = "";
+    document.getElementById("css_progress").innerText = "";
+    document.getElementById("javascript_progress").innerText = "";
+    document.getElementById("database_progress").innerText = "";
+    document.getElementById("reactjs_progress").innerText = "";
+    document.getElementById("nodejs_progress").innerText = "";
+    document.getElementById("csharp_progress").innerText = "";
+    document.getElementById("c_progress").innerText = "";
+    document.getElementById("java_progress").innerText = "";
 })
 
 document.getElementById("about_me_btn").addEventListener("click", () => {
@@ -65,6 +119,15 @@ document.getElementById("about_me_btn").addEventListener("click", () => {
     document.getElementById("education_container").style.display = "none";
     document.getElementById("skills_container").style.display = "none";
     document.getElementById("projects_container").style.display = "none";
+    document.getElementById("html_progress").innerText = "";
+    document.getElementById("css_progress").innerText = "";
+    document.getElementById("javascript_progress").innerText = "";
+    document.getElementById("database_progress").innerText = "";
+    document.getElementById("reactjs_progress").innerText = "";
+    document.getElementById("nodejs_progress").innerText = "";
+    document.getElementById("csharp_progress").innerText = "";
+    document.getElementById("c_progress").innerText = "";
+    document.getElementById("java_progress").innerText = "";
 })
 
 document.getElementById("education_btn").addEventListener("click", () => {
@@ -72,6 +135,16 @@ document.getElementById("education_btn").addEventListener("click", () => {
     document.getElementById("education_container").style.display = "flex";
     document.getElementById("skills_container").style.display = "none";
     document.getElementById("projects_container").style.display = "none";
+
+    document.getElementById("html_progress").innerText = "";
+    document.getElementById("css_progress").innerText = "";
+    document.getElementById("javascript_progress").innerText = "";
+    document.getElementById("database_progress").innerText = "";
+    document.getElementById("reactjs_progress").innerText = "";
+    document.getElementById("nodejs_progress").innerText = "";
+    document.getElementById("csharp_progress").innerText = "";
+    document.getElementById("c_progress").innerText = "";
+    document.getElementById("java_progress").innerText = "";
 })
 
 document.getElementById("skills_btn").addEventListener("click", () => {
@@ -79,6 +152,20 @@ document.getElementById("skills_btn").addEventListener("click", () => {
     document.getElementById("education_container").style.display = "none";
     document.getElementById("skills_container").style.display = "flex";
     document.getElementById("projects_container").style.display = "none";
+
+    $(document).ready(function() {
+        setTimeout(() => {
+            document.getElementById("html_progress").innerText = "HTML";
+            document.getElementById("css_progress").innerText = "CSS";
+            document.getElementById("javascript_progress").innerText = "JavaScript";
+            document.getElementById("database_progress").innerText = "MySQL";
+            document.getElementById("reactjs_progress").innerText = "ReactJS";
+            document.getElementById("nodejs_progress").innerText = "NodeJS";
+            document.getElementById("csharp_progress").innerText = "C#";
+            document.getElementById("c_progress").innerText = "C/C++";
+            document.getElementById("java_progress").innerText = "JAVA";
+        }, 500);
+    });
 })
 
 document.getElementById("projects_btn").addEventListener("click", () => {
@@ -86,6 +173,16 @@ document.getElementById("projects_btn").addEventListener("click", () => {
     document.getElementById("education_container").style.display = "none";
     document.getElementById("skills_container").style.display = "none";
     document.getElementById("projects_container").style.display = "flex";
+
+    document.getElementById("html_progress").innerText = "";
+    document.getElementById("css_progress").innerText = "";
+    document.getElementById("javascript_progress").innerText = "";
+    document.getElementById("database_progress").innerText = "";
+    document.getElementById("reactjs_progress").innerText = "";
+    document.getElementById("nodejs_progress").innerText = "";
+    document.getElementById("csharp_progress").innerText = "";
+    document.getElementById("c_progress").innerText = "";
+    document.getElementById("java_progress").innerText = "";
 })
 
 document.getElementById("circle1").addEventListener("click", () => {
@@ -212,4 +309,44 @@ document.getElementById("college_circle").addEventListener("click", () => {
     document.getElementById("info_education_earlylife").classList.remove("fade_in");
     document.getElementById("info_education_highschool").classList.remove("fade_in");
     document.getElementById("info_education_college").className += " fade_in";
+})
+
+document.getElementById("circle1_skills").addEventListener("click", () => {
+    document.getElementById("container_all_skills").style.display = "flex";
+    document.getElementById("container_soft_skills").style.display = "none";
+
+    document.getElementById("circle1_skills").className = "active_circle";
+    document.getElementById("circle2_skills").className = "circle";
+    
+    document.getElementById("html_progress").innerText = "";
+    document.getElementById("css_progress").innerText = "";
+    document.getElementById("javascript_progress").innerText = "";
+    document.getElementById("database_progress").innerText = "";
+    document.getElementById("reactjs_progress").innerText = "";
+    document.getElementById("nodejs_progress").innerText = "";
+    document.getElementById("csharp_progress").innerText = "";
+    document.getElementById("c_progress").innerText = "";
+    document.getElementById("java_progress").innerText = "";
+
+    $(document).ready(function() {
+        setTimeout(() => {
+            document.getElementById("html_progress").innerText = "HTML";
+            document.getElementById("css_progress").innerText = "CSS";
+            document.getElementById("javascript_progress").innerText = "JavaScript";
+            document.getElementById("database_progress").innerText = "MySQL";
+            document.getElementById("reactjs_progress").innerText = "ReactJS";
+            document.getElementById("nodejs_progress").innerText = "NodeJS";
+            document.getElementById("csharp_progress").innerText = "C#";
+            document.getElementById("c_progress").innerText = "C/C++";
+            document.getElementById("java_progress").innerText = "JAVA";
+        }, 500);
+    }); 
+})
+
+document.getElementById("circle2_skills").addEventListener("click", () => {
+    document.getElementById("container_all_skills").style.display = "none";
+    document.getElementById("container_soft_skills").style.display = "flex";
+
+    document.getElementById("circle1_skills").className = "circle";
+    document.getElementById("circle2_skills").className = "active_circle";
 })
