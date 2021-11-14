@@ -10,6 +10,20 @@ function reportWindowSize() {
         document.getElementById("menuLeft").style.display = "none";
         document.getElementById("content").style.width = "100%";
         document.getElementById("rightMenu").style.display = "none";
+
+        $(document).ready(function() {
+            setTimeout(() => {
+                document.getElementById("html_progress").innerText = "HTML";
+                document.getElementById("css_progress").innerText = "CSS";
+                document.getElementById("javascript_progress").innerText = "JavaScript";
+                document.getElementById("database_progress").innerText = "MySQL";
+                document.getElementById("reactjs_progress").innerText = "ReactJS";
+                document.getElementById("nodejs_progress").innerText = "NodeJS";
+                document.getElementById("csharp_progress").innerText = "C#";
+                document.getElementById("c_progress").innerText = "C/C++";
+                document.getElementById("java_progress").innerText = "JAVA";
+            }, 1500);
+        });
     }
     else {
         document.getElementById("menuDots").style.display = "none";
@@ -19,6 +33,20 @@ function reportWindowSize() {
         document.getElementById("content").style.display = "flex";
         document.getElementById("contentNavClick").style.display = "none";
         document.getElementById("menuDotsBack").style.display = "none";
+
+        $(document).ready(function() {
+            setTimeout(() => {
+                document.getElementById("html_progress").innerText = "HTML";
+                document.getElementById("css_progress").innerText = "CSS";
+                document.getElementById("javascript_progress").innerText = "JavaScript";
+                document.getElementById("database_progress").innerText = "MySQL";
+                document.getElementById("reactjs_progress").innerText = "ReactJS";
+                document.getElementById("nodejs_progress").innerText = "NodeJS";
+                document.getElementById("csharp_progress").innerText = "C#";
+                document.getElementById("c_progress").innerText = "C/C++";
+                document.getElementById("java_progress").innerText = "JAVA";
+            }, 500);
+        });
     }
 
     if(width < 650){
