@@ -8,7 +8,9 @@
     <link rel="icon" href="cv_watermark2.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="education.css">
+    <link rel="stylesheet" href="skills.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="heightScript.js" defer></script>
     <script src="widthScript.js" defer></script>
     <script src="onLoad.js" defer></script>
@@ -229,7 +231,28 @@
             <div id="skills_container">
                 <div class="text">Skills</div>
                 <div class="tab" id="tab_skills">
-                    
+                    <div class="container_all_skills" id="container_all_skills">
+                        <div class="first_skill_page">
+                            <div class="html_"><div class="html_progress" id="html_progress"></div></div>
+                            <div class="css_"><div class="css_progress" id="css_progress"></div></div>
+                            <div class="javascript_"><div class="javascript_progress" id="javascript_progress"></div></div>
+                        </div>
+                        <div class="second_skill_page">
+                            <div class="database_"><div class="database_progress" id="database_progress"></div></div>
+                            <div class="reactjs_"><div class="reactjs_progress" id="reactjs_progress"></div></div>
+                            <div class="nodejs_"><div class="nodejs_progress" id="nodejs_progress"></div></div>
+                        </div>
+                        <div class="third_skill_page">
+                            <div class="csharp_"><div class="csharp_progress" id="csharp_progress"></div></div>
+                            <div class="c_"><div class="c_progress" id="c_progress"></div></div>
+                            <div class="java_"><div class="java_progress" id="java_progress"></div></div>
+                        </div>
+                    </div>
+                    <div class="container_soft_skills" id="container_soft_skills"></div>
+                    <div class="next_page">
+                        <div class="active_circle" id="circle1_skills" style="margin-left:0;"></div>
+                        <div class="circle" id="circle2_skills"></div>
+                    </div>
                 </div>
             </div>
             <div id="projects_container">
