@@ -1,0 +1,281 @@
+.container_all_skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.first_skill_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.second_skill_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.third_skill_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.html_{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.css_{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.javascript_{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.html_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-overflow: ellipsis;
+    height: 100%;
+    animation: width_html 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.css_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    animation: width_html 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.javascript_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    animation: width_javascript 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+@keyframes width_html {
+    from {width: 0;}
+    to {width: 90%;}
+}
+
+@keyframes width_javascript {
+    from {width: 0;}
+    to {width: 70%;}
+}
+
+.database_{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.reactjs_{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.nodejs_{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.database_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-overflow: ellipsis;
+    height: 100%;
+    animation: width_database 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.reactjs_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    animation: width_reactjs 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.nodejs_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    animation: width_reactjs 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+@keyframes width_database {
+    from {width: 0;}
+    to {width: 80%;}
+}
+
+@keyframes width_reactjs {
+    from {width: 0;}
+    to {width: 50%;}
+}
+
+.csharp_{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.c_{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.java_{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    background-color: #18191a;
+    color: #d3d3d3;
+    border: 2px solid #18191a;
+}
+
+.csharp_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-overflow: ellipsis;
+    height: 100%;
+    animation: width_c 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.c_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    animation: width_c 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.java_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    animation: width_java 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+@keyframes width_c {
+    from {width: 0;}
+    to {width: 80%;}
+}
+
+@keyframes width_java {
+    from {width: 0;}
+    to {width: 60%;}
+}
+
+.container_soft_skills{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
