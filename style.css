@@ -168,7 +168,7 @@ body{
 }
 
 #about_me_container{
-    display: flex;
+    display: none;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -192,7 +192,7 @@ body{
 }
 
 #projects_container{
-    display: none;
+    display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
