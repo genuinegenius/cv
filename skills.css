@@ -49,36 +49,14 @@
     border: 2px solid #18191a;
 }
 
-.css_{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
-}
-
-.javascript_{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
-}
-
 .html_progress{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     text-overflow: ellipsis;
     height: 100%;
-    animation: width_html 2.5s infinite;
+    animation: width_100 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
 }
@@ -87,9 +65,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     height: 100%;
-    animation: width_html 2.5s infinite;
+    animation: width_100 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
 }
@@ -98,55 +76,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 80%;
     height: 100%;
-    animation: width_javascript 2.5s infinite;
+    animation: width_80 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
-}
-
-@keyframes width_html {
-    from {width: 0;}
-    to {width: 90%;}
-}
-
-@keyframes width_javascript {
-    from {width: 0;}
-    to {width: 70%;}
-}
-
-.database_{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
-}
-
-.reactjs_{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
-}
-
-.nodejs_{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
 }
 
 .database_progress{
@@ -156,7 +90,7 @@
     width: 80%;
     text-overflow: ellipsis;
     height: 100%;
-    animation: width_database 2.5s infinite;
+    animation: width_80 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
 }
@@ -167,7 +101,7 @@
     align-items: center;
     width: 50%;
     height: 100%;
-    animation: width_reactjs 2.5s infinite;
+    animation: width_50 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
 }
@@ -178,63 +112,19 @@
     align-items: center;
     width: 50%;
     height: 100%;
-    animation: width_reactjs 2.5s infinite;
+    animation: width_50 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
 }
 
-@keyframes width_database {
-    from {width: 0;}
-    to {width: 80%;}
-}
-
-@keyframes width_reactjs {
-    from {width: 0;}
-    to {width: 50%;}
-}
-
-.csharp_{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
-}
-
-.c_{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
-}
-
-.java_{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 30%;
-    margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
-}
-
-.csharp_progress{
+.php_progress{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     text-overflow: ellipsis;
     height: 100%;
-    animation: width_c 2.5s infinite;
+    animation: width_90 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
 }
@@ -243,9 +133,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     height: 100%;
-    animation: width_c 2.5s infinite;
+    animation: width_90 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
 }
@@ -256,19 +146,9 @@
     align-items: center;
     width: 60%;
     height: 100%;
-    animation: width_java 2.5s infinite;
+    animation: width_60 2.5s infinite;
     animation-iteration-count: 1;
     background-color: #1E90FF;
-}
-
-@keyframes width_c {
-    from {width: 0;}
-    to {width: 80%;}
-}
-
-@keyframes width_java {
-    from {width: 0;}
-    to {width: 60%;}
 }
 
 .container_soft_skills{
@@ -277,5 +157,122 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: transparent;
+}
+
+.vscode_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-overflow: ellipsis;
+    height: 100%;
+    animation: width_90 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.androidstudio_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    animation: width_60 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.vs_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    animation: width_70 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.photoshop_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    animation: width_80 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.intellij_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    animation: width_50 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+.git_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    animation: width_80 2.5s infinite;
+    animation-iteration-count: 1;
+    background-color: #1E90FF;
+}
+
+@keyframes width_10 {
+    from {width: 0;}
+    to {width: 10%;}
+}
+
+@keyframes width_20 {
+    from {width: 0;}
+    to {width: 20%;}
+}
+
+@keyframes width_30 {
+    from {width: 0;}
+    to {width: 30%;}
+}
+
+@keyframes width_40 {
+    from {width: 0;}
+    to {width: 40%;}
+}
+
+@keyframes width_50 {
+    from {width: 0;}
+    to {width: 50%;}
+}
+
+@keyframes width_60 {
+    from {width: 0;}
+    to {width: 60%;}
+}
+
+@keyframes width_70 {
+    from {width: 0;}
+    to {width: 70%;}
+}
+
+@keyframes width_80 {
+    from {width: 0;}
+    to {width: 80%;}
+}
+
+@keyframes width_90 {
+    from {width: 0;}
+    to {width: 90%;}
+}
+
+@keyframes width_100 {
+    from {width: 0;}
+    to {width: 100%;}
 }
