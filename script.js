@@ -405,6 +405,9 @@ document.getElementById("project_1").addEventListener("click", () => {
     document.getElementById("details_2").style.display = "none";
     document.getElementById("details_3").style.display = "none";
     document.getElementById("details_4").style.display = "none";
+    document.getElementById("details_5").style.display = "none";
+    document.getElementById("details_6").style.display = "none";
+    document.getElementById("details_7").style.display = "none";
 })
 
 document.getElementById("project_2").addEventListener("click", () => {
@@ -413,6 +416,9 @@ document.getElementById("project_2").addEventListener("click", () => {
     document.getElementById("details_2").style.display = "flex";
     document.getElementById("details_3").style.display = "none";
     document.getElementById("details_4").style.display = "none";
+    document.getElementById("details_5").style.display = "none";
+    document.getElementById("details_6").style.display = "none";
+    document.getElementById("details_7").style.display = "none";
 })
 
 document.getElementById("project_3").addEventListener("click", () => {
@@ -421,6 +427,9 @@ document.getElementById("project_3").addEventListener("click", () => {
     document.getElementById("details_2").style.display = "none";
     document.getElementById("details_3").style.display = "flex";
     document.getElementById("details_4").style.display = "none";
+    document.getElementById("details_5").style.display = "none";
+    document.getElementById("details_6").style.display = "none";
+    document.getElementById("details_7").style.display = "none";
 })
 
 document.getElementById("project_4").addEventListener("click", () => {
@@ -429,4 +438,70 @@ document.getElementById("project_4").addEventListener("click", () => {
     document.getElementById("details_2").style.display = "none";
     document.getElementById("details_3").style.display = "none";
     document.getElementById("details_4").style.display = "flex";
+    document.getElementById("details_5").style.display = "none";
+    document.getElementById("details_6").style.display = "none";
+    document.getElementById("details_7").style.display = "none";
 })
+
+document.getElementById("project_5").addEventListener("click", () => {
+    document.getElementById("default_details").style.display = "none";
+    document.getElementById("details_1").style.display = "none";
+    document.getElementById("details_2").style.display = "none";
+    document.getElementById("details_3").style.display = "none";
+    document.getElementById("details_4").style.display = "none";
+    document.getElementById("details_5").style.display = "flex";
+    document.getElementById("details_6").style.display = "none";
+    document.getElementById("details_7").style.display = "none";
+})
+
+document.getElementById("project_6").addEventListener("click", () => {
+    document.getElementById("default_details").style.display = "none";
+    document.getElementById("details_1").style.display = "none";
+    document.getElementById("details_2").style.display = "none";
+    document.getElementById("details_3").style.display = "none";
+    document.getElementById("details_4").style.display = "none";
+    document.getElementById("details_5").style.display = "none";
+    document.getElementById("details_6").style.display = "flex";
+    document.getElementById("details_7").style.display = "none";
+})
+
+document.getElementById("project_7").addEventListener("click", () => {
+    document.getElementById("default_details").style.display = "none";
+    document.getElementById("details_1").style.display = "none";
+    document.getElementById("details_2").style.display = "none";
+    document.getElementById("details_3").style.display = "none";
+    document.getElementById("details_4").style.display = "none";
+    document.getElementById("details_5").style.display = "none";
+    document.getElementById("details_6").style.display = "none";
+    document.getElementById("details_7").style.display = "flex";
+})
+
+let x, y;
+
+function display(y){
+    let elem = document.getElementById(y);
+    return window.getComputedStyle(elem, null).getPropertyValue("display");
+}
+
+function pages(x){
+    if(display("name4") == "flex"){
+        document.getElementById("name1").style.display = "none";
+        document.getElementById("name2").style.display = "none";
+        document.getElementById("name3").style.display = "none";
+        document.getElementById("name4").style.display = "none";
+        document.getElementById("name5").style.display = "flex";
+        document.getElementById("name6").style.display = "flex";
+        document.getElementById("name7").style.display = "flex";
+        document.getElementById("name8").style.display = "flex";
+    }
+    else{
+        document.getElementById("name1").style.display = "flex";
+        document.getElementById("name2").style.display = "flex";
+        document.getElementById("name3").style.display = "flex";
+        document.getElementById("name4").style.display = "flex";
+        document.getElementById("name5").style.display = "none";
+        document.getElementById("name6").style.display = "none";
+        document.getElementById("name7").style.display = "none";
+        document.getElementById("name8").style.display = "none";
+    }
+}
