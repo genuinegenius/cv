@@ -167,6 +167,10 @@ body{
     padding: 25px;
 }
 
+#tab_projects{
+    height: auto;
+}
+
 #about_me_container{
     display: none;
     align-items: center;
