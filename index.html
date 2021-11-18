@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="education.css">
     <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="heightScript.js" defer></script>
@@ -234,21 +235,34 @@
                     <div class="container_all_skills" id="container_all_skills">
                         <div class="first_skill_page">
                             <div class="html_"><div class="html_progress" id="html_progress"></div></div>
-                            <div class="css_"><div class="css_progress" id="css_progress"></div></div>
-                            <div class="javascript_"><div class="javascript_progress" id="javascript_progress"></div></div>
+                            <div class="html_"><div class="css_progress" id="css_progress"></div></div>
+                            <div class="html_"><div class="javascript_progress" id="javascript_progress"></div></div>
                         </div>
                         <div class="second_skill_page">
-                            <div class="database_"><div class="database_progress" id="database_progress"></div></div>
-                            <div class="reactjs_"><div class="reactjs_progress" id="reactjs_progress"></div></div>
-                            <div class="nodejs_"><div class="nodejs_progress" id="nodejs_progress"></div></div>
+                            <div class="html_"><div class="database_progress" id="database_progress"></div></div>
+                            <div class="html_"><div class="reactjs_progress" id="reactjs_progress"></div></div>
+                            <div class="html_"><div class="nodejs_progress" id="nodejs_progress"></div></div>
                         </div>
                         <div class="third_skill_page">
-                            <div class="csharp_"><div class="csharp_progress" id="csharp_progress"></div></div>
-                            <div class="c_"><div class="c_progress" id="c_progress"></div></div>
-                            <div class="java_"><div class="java_progress" id="java_progress"></div></div>
+                            <div class="html_"><div class="php_progress" id="php_progress"></div></div>
+                            <div class="html_"><div class="c_progress" id="c_progress"></div></div>
+                            <div class="html_"><div class="java_progress" id="java_progress"></div></div>
                         </div>
                     </div>
-                    <div class="container_soft_skills" id="container_soft_skills"></div>
+                    <div class="container_soft_skills" id="container_soft_skills">
+                        <div class="first_skill_page">
+                            <div class="html_"><div class="vscode_progress" id="vscode_progress"></div></div>
+                            <div class="html_"><div class="androidstudio_progress" id="androidstudio_progress"></div></div>
+                        </div>
+                        <div class="second_skill_page">
+                            <div class="html_"><div class="vs_progress" id="vs_progress"></div></div>
+                            <div class="html_"><div class="photoshop_progress" id="photoshop_progress"></div></div>
+                        </div>
+                        <div class="third_skill_page">
+                            <div class="html_"><div class="intellij_progress" id="intellij_progress"></div></div>
+                            <div class="html_"><div class="git_progress" id="git_progress"></div></div>
+                        </div>
+                    </div>
                     <div class="next_page">
                         <div class="active_circle" id="circle1_skills" style="margin-left:0;"></div>
                         <div class="circle" id="circle2_skills"></div>
@@ -257,7 +271,59 @@
             </div>
             <div id="projects_container">
                 <div class="text">Projects</div>
-                <div class="tab" id="tab_projects"></div>
+                <div class="tab" id="tab_projects">
+                    <div class="container_all_projects">
+                        <div class="projects_name">
+                            <div class="prev_button">&#8249;</div>
+                            <div class="name">
+                                <div class="name_top">
+                                    <div class="img_projects"><img src="anonymless.png" width="100%"></img></div>
+                                </div>
+                                <div class="name_bottom" id="project_1">&#11167;</div>
+                            </div>
+                            <div class="name">
+                                <div class="name_top"></div>
+                                <div class="name_bottom" id="project_2">&#11167;</div>
+                            </div>
+                            <div class="name">
+                                <div class="name_top"></div>
+                                <div class="name_bottom" id="project_3">&#11167;</div>
+                            </div>
+                            <div class="name">
+                                <div class="name_top"></div>
+                                <div class="name_bottom" id="project_4">&#11167;</div>
+                            </div>
+                            <div class="next_button">&#8250;</div>
+                        </div>
+                        <div class="projects_details">
+                            <div class="default_details" id="default_details">No project selected...</div>
+                            <div class="details_1" id="details_1">
+                                <div class="container_lang_bar">
+                                    <div class="lang_bar_details1">
+                                        <div class="first_color_1"></div>
+                                        <div class="second_color_1"></div>
+                                        <div class="third_color_1"></div>
+                                    </div>
+                                    <div class="history_lang_details1">
+                                        <div class="circle_lang_details1_1"></div>
+                                        <b>HTML&CSS</b>
+                                        <div class="circle_lang_details1_2"></div>
+                                        <b>PHP</b>
+                                        <div class="circle_lang_details1_3"></div>
+                                        <b>JavaScript</b>
+                                    </div>
+                                </div>
+                                <div class="info_details1">
+                                    It is my bachelor degree project that aimed to create and implement a multifunctional chat application.
+                                    The application is a fully functional real-time chat, which also works as a social network, thanks to the implementation of algorithms that allow each user to find friends with a single click depending on their online preferences and hobbies. he has them. In addition, each user has a profile where they can receive and reply to anonymous messages.
+                                </div>
+                            </div>
+                            <div class="details_2" id="details_2">project2</div>
+                            <div class="details_3" id="details_3">project3</div>
+                            <div class="details_4" id="details_4">project4</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="contentNavClick" id="contentNavClick">
