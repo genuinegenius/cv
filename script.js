@@ -458,11 +458,15 @@ document.getElementById("project_7").addEventListener("click", () => {
     document.getElementById("details_7").style.display = "flex";
 })
 
-let x, y;
+let x, y, z;
 
 function display(y){
     let elem = document.getElementById(y);
     return window.getComputedStyle(elem, null).getPropertyValue("display");
+}
+function bgcolor(z){
+    let elem = document.getElementById(z);
+    return window.getComputedStyle(elem, null).getPropertyValue("background-color");
 }
 
 function pages(x){
@@ -487,3 +491,37 @@ function pages(x){
         document.getElementById("name8").style.display = "none";
     }
 }
+
+document.getElementById("rightMenu").addEventListener("click", () => {
+    if(bgcolor("menuLeft") == "rgb(36, 37, 38)"){
+        document.documentElement.style.setProperty("--black", "#f5f6f8");
+        document.documentElement.style.setProperty("--blackw", "white");
+        document.documentElement.style.setProperty("--border-menu", "#d3d3d3");
+        document.documentElement.style.setProperty("--gray", "black");
+        document.getElementById("img_projects1").style.backgroundColor = "transparent";
+        document.getElementById("img_projects2").style.backgroundColor = "transparent";
+    }
+    else{
+        document.documentElement.style.setProperty("--black", "#18191a");
+        document.documentElement.style.setProperty("--blackw", "#242526");
+        document.documentElement.style.setProperty("--border-menu", "#4e5052");
+        document.documentElement.style.setProperty("--gray", "#d3d3d3");
+    }
+})
+
+document.getElementById("rightMenu2").addEventListener("click", () => {
+    if(bgcolor("menuLeft") == "rgb(36, 37, 38)"){
+        document.documentElement.style.setProperty("--black", "#f5f6f8");
+        document.documentElement.style.setProperty("--blackw", "white");
+        document.documentElement.style.setProperty("--border-menu", "#d3d3d3");
+        document.documentElement.style.setProperty("--gray", "black");
+        document.getElementById("img_projects1").style.backgroundColor = "transparent";
+        document.getElementById("img_projects2").style.backgroundColor = "transparent";
+    }
+    else{
+        document.documentElement.style.setProperty("--black", "#18191a");
+        document.documentElement.style.setProperty("--blackw", "#242526");
+        document.documentElement.style.setProperty("--border-menu", "#4e5052");
+        document.documentElement.style.setProperty("--gray", "#d3d3d3");
+    }
+})
