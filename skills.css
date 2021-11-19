@@ -1,3 +1,5 @@
+@import "variables.css";
+
 .container_all_skills{
     display: flex;
     justify-content: center;
@@ -44,9 +46,9 @@
     width: 30%;
     height: 30%;
     margin: 5px;
-    background-color: #18191a;
-    color: #d3d3d3;
-    border: 2px solid #18191a;
+    background-color: var(--black);
+    color: var(--gray);
+    border: 2px solid var(--black);
 }
 
 .html_progress{
