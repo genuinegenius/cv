@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("database_progress").innerText = "MySQL";
                 document.getElementById("reactjs_progress").innerText = "ReactJS";
                 document.getElementById("nodejs_progress").innerText = "NodeJS";
-                document.getElementById("csharp_progress").innerText = "C#";
                 document.getElementById("c_progress").innerText = "C/C++";
                 document.getElementById("java_progress").innerText = "JAVA";
             }, 1500);
@@ -41,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("database_progress").innerText = "MySQL";
                 document.getElementById("reactjs_progress").innerText = "ReactJS";
                 document.getElementById("nodejs_progress").innerText = "NodeJS";
-                document.getElementById("csharp_progress").innerText = "C#";
                 document.getElementById("c_progress").innerText = "C/C++";
                 document.getElementById("java_progress").innerText = "JAVA";
             }, 500);
